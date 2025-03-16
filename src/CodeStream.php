@@ -2,9 +2,6 @@
 
 namespace Opis\Closure;
 
-/**
- * @internal
- */
 final class CodeStream
 {
     public const STREAM_PROTO = 'closure';
@@ -160,7 +157,6 @@ final class CodeStream
 
 /**
  * Use this function to get an unbound closure
- * @internal
  */
 function include_factory(string $url): mixed {
     return include($url);
